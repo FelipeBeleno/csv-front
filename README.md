@@ -40,3 +40,4 @@ Este proyecto Next.js proporciona una interfaz de usuario para subir y visualiza
 
 Las contribuciones son bienvenidas. Por favor, crea un fork del repositorio y envía un pull request con tus cambios.
 # csv-front
+# csv-front
