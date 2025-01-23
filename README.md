@@ -1,36 +1,42 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Proyecto Next.js: Visualizador de CSV
 
-## Getting Started
+Este proyecto Next.js proporciona una interfaz de usuario para subir y visualizar archivos CSV. Los datos se envían a una API NestJS (que debes tener en ejecución) para su procesamiento y almacenamiento.
 
-First, run the development server:
+## Funcionalidades:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+* **Autenticacion basica:** Permite a los usuarios autenticarse antes de cualquier petición.
+* **Subida de archivos:** Permite a los usuarios subir archivos CSV a través de un formulario.
+* **Visualización de datos:**  Muestra los datos del CSV en tablas interactivas, organizadas en acordeones.
+* **Integración con API:** Se comunica con una API NestJS para enviar los archivos CSV y obtener los datos procesados.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Tecnologías:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+* Next.js
+* React
+* Heroicons
+* Tailwind CSS
+* Fetch API
+* React-Toastify
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Instalación:
 
-## Learn More
+1. Clona el repositorio: `git clone https://github.com/FelipeBeleno/csv-front.git`
+2. Instala las dependencias: `npm install`
+3. Inicia la aplicación: `npm run dev`
 
-To learn more about Next.js, take a look at the following resources:
+## Uso:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. Abre la aplicación en tu navegador.
+2. Sube un archivo CSV usando el formulario.
+3. Los datos del CSV se mostrarán en tablas interactivas dentro de acordeones.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Consideraciones:
 
-## Deploy on Vercel
+* Este proyecto requiere una API NestJS en ejecución para funcionar correctamente.
+* Asegúrate de que la URL de la API esté configurada correctamente en el componente `HomePage`.
+* Puedes personalizar la apariencia de la interfaz de usuario modificando el CSS.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Contribuciones:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Las contribuciones son bienvenidas. Por favor, crea un fork del repositorio y envía un pull request con tus cambios.
+# csv-front
