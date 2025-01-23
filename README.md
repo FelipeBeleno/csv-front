@@ -13,7 +13,6 @@ Este proyecto Next.js proporciona una interfaz de usuario para subir y visualiza
 
 * Next.js
 * React
-* Heroicons
 * Tailwind CSS
 * Fetch API
 * React-Toastify
@@ -27,8 +26,9 @@ Este proyecto Next.js proporciona una interfaz de usuario para subir y visualiza
 ## Uso:
 
 1. Abre la aplicación en tu navegador.
-2. Sube un archivo CSV usando el formulario.
-3. Los datos del CSV se mostrarán en tablas interactivas dentro de acordeones.
+2. Logeate en el boton verde de la esquina inferior derecha.
+3. Sube un archivo CSV usando el formulario.
+4. Los datos del CSV se mostrarán en tablas interactivas dentro de acordeones.
 
 ## Consideraciones:
 
